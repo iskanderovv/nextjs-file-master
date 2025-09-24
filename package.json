@@ -1,0 +1,45 @@
+{
+  "name": "nextjs-file-master",
+  "version": "1.0.1",
+  "description": "A powerful file upload handler for Next.js applications with automatic image optimization and flexible configuration",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "nextjs",
+    "file-upload",
+    "image-optimization",
+    "webp",
+    "typescript",
+    "full-stack"
+  ],
+  "author": "Akbar Iskandarov",
+  "license": "MIT",
+  "dependencies": {
+    "mime-types": "^2.1.35"
+  },
+  "peerDependencies": {
+    "sharp": "^0.33.0"
+  },
+  "devDependencies": {
+    "@types/mime-types": "^2.1.4",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iskanderovv/nextjs-file-master.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iskanderovv/nextjs-file-master/issues"
+  },
+  "homepage": "https://github.com/iskanderovv/nextjs-file-master#readme"
+}
