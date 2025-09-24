@@ -1,6 +1,6 @@
 {
   "name": "nextjs-file-master",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A powerful file upload handler for Next.js applications with automatic image optimization and flexible configuration",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
